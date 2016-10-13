@@ -1,7 +1,8 @@
 # Exercise 6: Popular Baby Names Over Time
 
+setwd('~/Desktop/m8-dataframes/exercise-6/')
 # Read in the female baby names csv file into a variable called `female.names`
-
+data <- read.csv('data/female_names.csv')
 
 # Create a vector `year` as the year column of the dataset
 
